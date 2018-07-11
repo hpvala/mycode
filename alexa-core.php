@@ -1,8 +1,6 @@
 <script type="text/javascript">
 var https = require('https')
-
 exports.handler = (event, context) => {
-
   try {
     if (event.session.new) {
       // New Session
