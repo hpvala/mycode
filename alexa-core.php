@@ -1,5 +1,7 @@
 <script type="text/javascript">
+var data = 'test'; 
 var https = require('https')
+
 exports.handler = (event, context) => {
   try {
     if (event.session.new) {
